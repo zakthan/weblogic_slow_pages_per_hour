@@ -3,7 +3,7 @@
 ##Usage This script calculates slow connections per hour and sends data once per day to zabbix server via crontab.Weblogic http logs are extended format and for the script to work correct the need to be rotated once per day only.Slow page is a page that takes more than $SLOW_PAGE_SECONDS_THRESHOLD seconds to respond
 
 ##script parameters###
-ZABBIX=pvzabbix01.cosmote.gr
+ZABBIX=*****
 HOST=`hostname`
 KEY=weblogic_slow_pages_per_hour
 ##script parameters###
